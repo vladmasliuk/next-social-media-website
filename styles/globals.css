@@ -18,10 +18,21 @@ a {
   box-sizing: border-box;
 }
 
+/* block */
 .container{
   max-width: 1235px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.sec-wrap{
+  margin: 100px 0;
+}
+
+/* text */
+.text-block h2{
+  font-size: 76px;
+  margin-top: 0;
 }
 
 /* header */
@@ -166,17 +177,87 @@ a {
 
 /* about sec */
 .about-sec{
-  height: 500vh;
-  margin-top: 50px;
-}
-
-.about-sec-text h2{
-  font-size: 76px;
-  margin-top: 0;
-}
-
-.about-sec{
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-gap: 50px;
+}
+
+/* download sec */
+.dow-item-wrap{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* download item */
+.dow-item{
+  background: #000;
+}
+
+.dow-item:not(:last-child){
+  border-right: 1px solid rgba(216,216,216,.2);
+}
+
+/* download image */
+.dow-item-img{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .7s;
+}
+
+.dow-item:hover .dow-item-img{
+  opacity: 1;
+}
+
+/* download-text */
+.dow-item-text-wrap{
+  height: 600px;
+  padding: 90px;
+}
+
+.dow-item-text h3{
+  font-size: 34px;
+  color: rgba(255,255,255,.44);
+  transition: all .4s;
+}
+
+.dow-item:hover .dow-item-text h3{
+  color: #fff;
+}
+
+.dow-item-text p{
+  color: #fff;
+  transition: all .4s;
+  opacity: 0;
+  height: 0;
+}
+
+.dow-item:hover .dow-item-text p{
+  opacity: 1;
+  height: 100%;
+  margin-bottom: 50px;
+}
+
+.dow-item-text a{
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  padding: 20px 30px;
+  transition: all .4s;
+  opacity: 0;
+  height: 0;
+}
+
+.dow-item-text a:hover{
+  color: #000;
+  border: 1px solid #000;
+  background: #fff;
+}
+
+.dow-item:hover .dow-item-text a{
+  opacity: 1;
+  height: 100%;
 }

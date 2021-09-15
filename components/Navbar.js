@@ -20,7 +20,7 @@ class Navbar extends React.Component{
     }
     render(){
         return(
-            <div className={`header ${this.state.isTop ? 'header-scroll' : null}`}>
+            <div className={`header ${this.state.isTop ? 'header-scroll' : ''}`}>
                 <div className="container">
                     <div className="headerContent">
                         <Link href="/">
