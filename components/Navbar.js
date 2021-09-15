@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link'
 
 // assets
-import Logo from '../assets/logo.png'
+import Logo from '../assets/img/logo.png'
 const Navbar = () => {
     return(
         <div className="header">
