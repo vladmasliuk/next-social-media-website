@@ -63,13 +63,15 @@ a {
   display: flex;
 }
 
-.headerContent ul .menu-item:not(:last-child){
+.headerContent ul .menu-item{
   margin-right: 40px;
 }
 
 .headerContent ul .menu-item a{
   position: relative;
   color: #fff;
+  cursor: pointer;
+
 }
 
 .header-scroll ul .menu-item a{
