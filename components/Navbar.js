@@ -39,7 +39,6 @@ class Navbar extends React.Component{
                                     smooth={true} 
                                     duration={1000} 
                                     offset={-150}
-                                    activeClass='some-active-class'
                                 >
                                     About
                                 </ScrollLink>
@@ -51,7 +50,6 @@ class Navbar extends React.Component{
                                     smooth={true} 
                                     duration={1000}
                                     offset={-150}
-                                    activeClass='some-active-class'
                                 >
                                     Download
                                 </ScrollLink>
@@ -63,7 +61,6 @@ class Navbar extends React.Component{
                                     smooth={true} 
                                     duration={1000}
                                     offset={-150}
-                                    activeClass='some-active-class'
                                 >
                                     Contact
                                 </ScrollLink>

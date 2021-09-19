@@ -1,3 +1,7 @@
+import Scroll from 'react-scroll'
+
+const ScrollLink = Scroll.Link;
+
 const VideoSec = () => {
     return(
         <div className="video-sec">
@@ -8,11 +12,19 @@ const VideoSec = () => {
                 <h1>Social media</h1>
                 <p>explore the perfect communication</p>
             </div>
-            <div className="scroll-downs">
-                <div className="mousey">
-                    <div className="scroller"></div>
+            <ScrollLink 
+                to="about-sec" 
+                spy={true} 
+                smooth={true} 
+                duration={1000} 
+                offset={-150}
+            >
+                <div className="scroll-downs">
+                    <div className="mouse">
+                        <div className="scroller"></div>
+                    </div>
                 </div>
-            </div>
+            </ScrollLink>
         </div>
     )
 }
