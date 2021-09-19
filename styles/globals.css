@@ -266,3 +266,26 @@ a {
 }
 
 /* footer */
+.footer{
+  padding: 20px 0;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.footerContent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerContent ul{
+  list-style: none;
+  display: flex;
+}
+
+.footerContent ul li{
+  cursor: pointer;
+}
+
+.footerContent ul li:not(:last-child){
+  margin-right: 20px;
+}
