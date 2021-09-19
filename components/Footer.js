@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="container">
                 <div className="footerContent">
                     <div>
-                        <Image src={Logo} alt="Social media" width={70} height={70}/>
+                        <Image src={Logo} alt="Social media" width={70} height={70} quality={100}/>
                     </div>
 
                     <ul>
