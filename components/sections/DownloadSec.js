@@ -24,10 +24,8 @@ const DownloadSec = () =>{
                         <div className="dow-item-text-wrap">
                             <div className="dow-item-text">
                                 <h3>Windows</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </p>
-                                <a href="#">Download</a>
+                                <p>Download for Windows</p>
+                                <a href="../apps/Social-media.exe" download>Download</a>
                             </div>
                         </div>
                     </div>
@@ -38,9 +36,7 @@ const DownloadSec = () =>{
                         <div className="dow-item-text-wrap">
                             <div className="dow-item-text">
                                 <h3>MacOs</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </p>
+                                <p>Download for MacOs</p>
                                 <a href="#">Download</a>
                             </div>
                         </div>
@@ -52,10 +48,8 @@ const DownloadSec = () =>{
                         <div className="dow-item-text-wrap">
                             <div className="dow-item-text">
                                 <h3>Android</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </p>
-                                <a href="#">Download</a>
+                                <p>Download for Android</p>
+                                <a href="../apps/Social-media.apk">Download</a>
                             </div>
                         </div>
                     </div>
@@ -66,10 +60,8 @@ const DownloadSec = () =>{
                         <div className="dow-item-text-wrap">
                             <div className="dow-item-text">
                                 <h3>IOS</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                </p>
-                                <a href="#">Download</a>
+                                <p>Download for IOS (simulator version)</p>
+                                <a href="../apps/Social-media-simulator.tar.gz">Download</a>
                             </div>
                         </div>
                     </div>

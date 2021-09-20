@@ -11,12 +11,10 @@ const AboutSec = () =>{
                 <div className="about-sec sec-wrap">
                     <div className="text-block">
                         <h2>About</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-                            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
-                            in culpa qui officia deserunt mollit anim id est laborum.
+                        <p>This is "Social media" application. After registration and login, you can
+                            distributing short messages among groups of people via personal computer
+                            or mobile telephone. You can use browser version of application, or download
+                            desktop and mobile version for your device.
                         </p>
                     </div>
                     <div>
