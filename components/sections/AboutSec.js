@@ -11,7 +11,7 @@ const AboutSec = () =>{
                 <div className="about-sec sec-wrap">
                     <div className="text-block">
                         <h2>About</h2>
-                        <p>This is Social media application. After registration and login, you can
+                        <p>This is &quot;Social media&quot; application. After registration and login, you can
                             distributing short messages among groups of people via personal computer
                             or mobile telephone. You can use browser version of application, or download
                             desktop and mobile version for your device.
