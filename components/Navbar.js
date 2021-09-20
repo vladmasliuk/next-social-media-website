@@ -87,6 +87,7 @@ class Navbar extends React.Component{
                         <button className="menu-btn">
                             <Image 
                                 src={MenuIcon}
+                                alt="Menu icon"
                                 width={30}
                                 height={30}
                                 onClick={this.openMenu}
