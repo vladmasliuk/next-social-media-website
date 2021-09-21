@@ -15,7 +15,7 @@ const DownloadSec = () =>{
                     <div className="dow-item">
                         <div className="dow-item-img">
                             <Image 
-                                src="img/windows-icon.svg" 
+                                src="/img/windows-icon.svg" 
                                 alt="Social media screen" 
                                 width={300} 
                                 height={300} 
@@ -33,7 +33,7 @@ const DownloadSec = () =>{
                     <div className="dow-item">
                         <div className="dow-item-img">
                             <Image 
-                                src="img/apple-icon.svg" 
+                                src="/img/apple-icon.svg" 
                                 alt="Social media screen" 
                                 width={300} 
                                 height={300} 
@@ -51,7 +51,7 @@ const DownloadSec = () =>{
                     <div className="dow-item">
                         <div className="dow-item-img">
                             <Image 
-                                src="img/android-icon.svg" 
+                                src="/img/android-icon.svg" 
                                 alt="Social media screen" 
                                 width={300} 
                                 height={300} 
@@ -69,7 +69,7 @@ const DownloadSec = () =>{
                     <div className="dow-item">
                         <div className="dow-item-img">
                             <Image 
-                                src="img/apple-icon.svg" 
+                                src="/img/apple-icon.svg" 
                                 alt="Social media screen" 
                                 width={300} 
                                 height={300} 

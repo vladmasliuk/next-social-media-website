@@ -31,7 +31,7 @@ class Navbar extends React.Component{
                         <Link href="/">
                             <a>
                                 <Image
-                                    src="img/logo.png"
+                                    src="/img/logo.png"
                                     alt="Social media"
                                     width={70}
                                     height={70}
@@ -88,7 +88,7 @@ class Navbar extends React.Component{
                         {/* mob menu btn */}
                         <button className="menu-btn">
                             <Image 
-                                src="img/menu-icon.svg"
+                                src="/img/menu-icon.svg"
                                 alt="Menu icon"
                                 width={30}
                                 height={30}
