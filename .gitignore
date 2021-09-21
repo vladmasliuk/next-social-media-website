@@ -34,4 +34,4 @@ yarn-error.log*
 .vercel
 
 # apps
-/public/apps
+# /public/apps

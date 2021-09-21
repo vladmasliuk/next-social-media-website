@@ -30,7 +30,13 @@ class Navbar extends React.Component{
                     <div className="headerContent">
                         <Link href="/">
                             <a>
-                                <Image src="/img/logo.png" alt="Social media" width={70} height={70} quality={100}/>
+                                <Image
+                                    src="img/logo.png"
+                                    alt="Social media"
+                                    width={70}
+                                    height={70}
+                                    quality={100}
+                                />
                             </a>
                         </Link>
                         <div className={`menu-wrap ${this.state.menuOpen ? "menu-open" : ''}`}>
@@ -82,7 +88,7 @@ class Navbar extends React.Component{
                         {/* mob menu btn */}
                         <button className="menu-btn">
                             <Image 
-                                src="/img/menu-icon.svg"
+                                src="img/menu-icon.svg"
                                 alt="Menu icon"
                                 width={30}
                                 height={30}

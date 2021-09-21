@@ -15,7 +15,13 @@ const AboutSec = () =>{
                         </p>
                     </div>
                     <div>
-                        <Image src="/img/about-img.jpg" alt="Social media screen" width={750} height={400} quality={100}/>
+                        <Image
+                            src="img/about-img.jpg"
+                            alt="Social media screen"
+                            width={750}
+                            height={400}
+                            quality={100}
+                        />
                     </div>
                 </div>
             </div>

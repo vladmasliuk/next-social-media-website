@@ -14,7 +14,13 @@ const DownloadSec = () =>{
                 <div className="dow-item-wrap">
                     <div className="dow-item">
                         <div className="dow-item-img">
-                            <Image src="/img/windows-icon.svg" alt="Social media screen" width={300} height={300}/>
+                            <Image 
+                                src="img/windows-icon.svg" 
+                                alt="Social media screen" 
+                                width={300} 
+                                height={300} 
+                                quality={100} 
+                            />
                         </div>
                         <div className="dow-item-text-wrap">
                             <div className="dow-item-text">
@@ -26,7 +32,13 @@ const DownloadSec = () =>{
                     </div>
                     <div className="dow-item">
                         <div className="dow-item-img">
-                            <Image src="/img/apple-icon.svg" alt="Social media screen" width={300} height={300}/>
+                            <Image 
+                                src="img/apple-icon.svg" 
+                                alt="Social media screen" 
+                                width={300} 
+                                height={300} 
+                                quality={100} 
+                            />
                         </div>
                         <div className="dow-item-text-wrap">
                             <div className="dow-item-text">
@@ -38,7 +50,13 @@ const DownloadSec = () =>{
                     </div>
                     <div className="dow-item">
                         <div className="dow-item-img">
-                            <Image src="/img/android-icon.svg" alt="Social media screen" width={300} height={300}/>
+                            <Image 
+                                src="img/android-icon.svg" 
+                                alt="Social media screen" 
+                                width={300} 
+                                height={300} 
+                                quality={100} 
+                            />
                         </div>
                         <div className="dow-item-text-wrap">
                             <div className="dow-item-text">
@@ -50,7 +68,13 @@ const DownloadSec = () =>{
                     </div>
                     <div className="dow-item">
                         <div className="dow-item-img">
-                            <Image src="/img/apple-icon.svg" alt="Social media screen" width={300} height={300}/>
+                            <Image 
+                                src="img/apple-icon.svg" 
+                                alt="Social media screen" 
+                                width={300} 
+                                height={300} 
+                                quality={100} 
+                            />
                         </div>
                         <div className="dow-item-text-wrap">
                             <div className="dow-item-text">
