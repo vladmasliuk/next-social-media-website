@@ -16,7 +16,7 @@ const AboutSec = () =>{
                     </div>
                     <div>
                         <Image
-                            src="/img/about-img.jpg"
+                            src="/img/about-img.JPG"
                             alt="Social media screen"
                             width={750}
                             height={400}
