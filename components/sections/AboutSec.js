@@ -1,9 +1,6 @@
 import Image from 'next/image';
 import { Element } from 'react-scroll'
 
-// assets
-import AboutImg from '../../assets/img/about-img.jpg';
-
 const AboutSec = () =>{
     return(
         <Element id='about-sec' name='about-sec'>
@@ -18,7 +15,7 @@ const AboutSec = () =>{
                         </p>
                     </div>
                     <div>
-                        <Image src={AboutImg} alt="Social media screen" width={750} height={400} quality={100}/>
+                        <Image src="/img/about-img.jpg" alt="Social media screen" width={750} height={400} quality={100}/>
                     </div>
                 </div>
             </div>

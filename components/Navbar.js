@@ -3,10 +3,6 @@ import Image from 'next/image';
 import Link from 'next/link'
 import Scroll from 'react-scroll'
 
-// assets
-import Logo from '../assets/img/logo.png';
-import MenuIcon from '../assets/img/menu-icon.svg';
-
 class Navbar extends React.Component{
     state={
         isTop: false,
@@ -34,7 +30,7 @@ class Navbar extends React.Component{
                     <div className="headerContent">
                         <Link href="/">
                             <a>
-                                <Image src={Logo} alt="Social media" width={70} height={70} quality={100}/>
+                                <Image src="/img/logo.png" alt="Social media" width={70} height={70} quality={100}/>
                             </a>
                         </Link>
                         <div className={`menu-wrap ${this.state.menuOpen ? "menu-open" : ''}`}>
@@ -86,7 +82,7 @@ class Navbar extends React.Component{
                         {/* mob menu btn */}
                         <button className="menu-btn">
                             <Image 
-                                src={MenuIcon}
+                                src="/img/menu-icon.svg"
                                 alt="Menu icon"
                                 width={30}
                                 height={30}

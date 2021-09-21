@@ -1,11 +1,6 @@
 import Image from 'next/image';
 import { Element } from 'react-scroll'
 
-// assets
-import WinImg from '../../assets/img/windows-icon.svg';
-import AppleImg from '../../assets/img/apple-icon.svg';
-import AndImg from '../../assets/img/android-icon.svg';
-
 const DownloadSec = () =>{
     return(
         <Element id='download-sec' name='download-sec'>
@@ -19,19 +14,19 @@ const DownloadSec = () =>{
                 <div className="dow-item-wrap">
                     <div className="dow-item">
                         <div className="dow-item-img">
-                            <Image src={WinImg} alt="Social media screen" width={300} height={300}/>
+                            <Image src="/img/windows-icon.svg" alt="Social media screen" width={300} height={300}/>
                         </div>
                         <div className="dow-item-text-wrap">
                             <div className="dow-item-text">
                                 <h3>Windows</h3>
                                 <p>Download for Windows</p>
-                                <a href="../apps/Social-media.exe" download>Download</a>
+                                <a href="/apps/Social-media.exe" download>Download</a>
                             </div>
                         </div>
                     </div>
                     <div className="dow-item">
                         <div className="dow-item-img">
-                            <Image src={AppleImg} alt="Social media screen" width={300} height={300}/>
+                            <Image src="/img/apple-icon.svg" alt="Social media screen" width={300} height={300}/>
                         </div>
                         <div className="dow-item-text-wrap">
                             <div className="dow-item-text">
@@ -43,25 +38,25 @@ const DownloadSec = () =>{
                     </div>
                     <div className="dow-item">
                         <div className="dow-item-img">
-                            <Image src={AndImg} alt="Social media screen" width={300} height={300}/>
+                            <Image src="/img/android-icon.svg" alt="Social media screen" width={300} height={300}/>
                         </div>
                         <div className="dow-item-text-wrap">
                             <div className="dow-item-text">
                                 <h3>Android</h3>
                                 <p>Download for Android</p>
-                                <a href="../apps/Social-media.apk">Download</a>
+                                <a href="/apps/Social-media.apk">Download</a>
                             </div>
                         </div>
                     </div>
                     <div className="dow-item">
                         <div className="dow-item-img">
-                            <Image src={AppleImg} alt="Social media screen" width={300} height={300}/>
+                            <Image src="/img/apple-icon.svg" alt="Social media screen" width={300} height={300}/>
                         </div>
                         <div className="dow-item-text-wrap">
                             <div className="dow-item-text">
                                 <h3>IOS</h3>
                                 <p>Download for IOS (simulator version)</p>
-                                <a href="../apps/Social-media-simulator.tar.gz">Download</a>
+                                <a href="/apps/Social-media-simulator.tar.gz">Download</a>
                             </div>
                         </div>
                     </div>

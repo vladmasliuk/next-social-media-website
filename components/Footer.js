@@ -2,9 +2,6 @@ import Image from 'next/image';
 import Scroll from 'react-scroll'
 import Link from 'next/link'
 
-// assets
-import Logo from '../assets/img/logo.png';
-
 const ScrollLink = Scroll.Link;
 
 const Footer = () => {
@@ -13,7 +10,7 @@ const Footer = () => {
             <div className="container">
                 <div className="footerContent">
                     <div>
-                        <Image src={Logo} alt="Social media" width={70} height={70} quality={100}/>
+                        <Image src="/img/logo.png" alt="Social media" width={70} height={70} quality={100}/>
                     </div>
 
                     <ul>
