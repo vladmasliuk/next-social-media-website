@@ -5,7 +5,7 @@ const ScrollLink = Scroll.Link;
 const VideoSec = () => {
     return(
         <div className="video-sec">
-            <video autoPlay muted loop>
+            <video autoPlay muted loop playsinline>
                 <source src="../video/video-bg.mp4" type="video/mp4"/>
             </video>
             <div className="video-sec-text">
