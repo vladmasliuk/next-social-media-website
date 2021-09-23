@@ -320,6 +320,21 @@ a{
     border-right: 1px solid rgba(216,216,216,.2);
     border-bottom: 1px solid rgba(216,216,216,.2);
   }
+
+  .dow-item-img,
+  .dow-item-text p,
+  .dow-item-text a{
+    opacity: 1;
+  }
+
+  .dow-item-text p,
+  .dow-item-text a{
+    height: 100%;
+  }
+
+  .dow-item-text p{
+    margin-bottom: 50px;
+  }
   
 }
 
