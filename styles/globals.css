@@ -192,6 +192,12 @@ a{
   grid-gap: 50px;
 }
 
+.about-img-wrap{
+  box-shadow: 10px 10px 25px rgba(42, 139, 242, 0.1), 
+  15px 15px 35px rgba(42, 139, 242, 0.05), 
+  10px 10px 50px rgba(42, 139, 242, 0.1);
+}
+
 /* download sec */
 .dow-item-wrap{
   display: grid;

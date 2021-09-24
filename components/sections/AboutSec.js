@@ -14,7 +14,7 @@ const AboutSec = () =>{
                             desktop and mobile version for your device.
                         </p>
                     </div>
-                    <div>
+                    <div className="about-img-wrap">
                         <Image
                             src="/img/about-img.JPG"
                             alt="Social media screen"
