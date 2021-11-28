@@ -206,11 +206,11 @@ a{
 
 /* download item */
 .dow-item{
-  background: #000;
+  background: #fff;
 }
 
 .dow-item:not(:last-child){
-  border-right: 1px solid rgba(216,216,216,.2);
+  border-right: 1px solid rgba(0,0,0,.2);
 }
 
 /* download image */
@@ -236,16 +236,16 @@ a{
 
 .dow-item-text h3{
   font-size: 34px;
-  color: rgba(255,255,255,.44);
+  color: #000;
   transition: all .4s;
 }
 
 .dow-item:hover .dow-item-text h3{
-  color: #fff;
+  color: #000;
 }
 
 .dow-item-text p{
-  color: #fff;
+  color: #000;
   transition: all .4s;
   opacity: 0;
   height: 0;
@@ -258,8 +258,8 @@ a{
 }
 
 .dow-item-text a{
-  color: #fff;
-  border: 1px solid #fff;
+  color: #000;
+  border: 1px solid #000;
   border-radius: 30px;
   padding: 20px 30px;
   transition: all .4s;
@@ -268,9 +268,9 @@ a{
 }
 
 .dow-item-text a:hover{
-  color: #000;
+  color: #fff;
   border: 1px solid #000;
-  background: #fff;
+  background: #000;
 }
 
 .dow-item:hover .dow-item-text a{
